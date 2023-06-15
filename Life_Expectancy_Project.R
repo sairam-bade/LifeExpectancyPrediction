@@ -10,7 +10,7 @@ options(scipen = 99)
 set.seed(70)
 
 # Loading the dataset
-dataset <- read.csv('Life Expectancy Data Updated.csv')
+dataset <- read.csv('Life Expectancy Data.csv')
 View(dataset)
 
 library(ggplot2)
